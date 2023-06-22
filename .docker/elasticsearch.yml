@@ -1,0 +1,10 @@
+cluster.name: "elasticsearch"
+network.host: "0.0.0.0"
+xpack.security.enabled: false
+bootstrap.memory_lock: false
+indices.fielddata.cache.size: "75%"
+discovery.zen.minimum_master_nodes: 1
+discovery.type: "single-node"
+cluster.routing.allocation.disk.threshold_enabled: true
+cluster.routing.allocation.disk.watermark.low: "65%"
+cluster.routing.allocation.disk.watermark.high: "70%"
